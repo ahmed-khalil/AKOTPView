@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11606D982553DA3700069234 /* AKOTPView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11606D8E2553DA3700069234 /* AKOTPView.framework */; };
+		11606D9D2553DA3700069234 /* AKOTPViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11606D9C2553DA3700069234 /* AKOTPViewTests.swift */; };
+		11606D9F2553DA3700069234 /* AKOTPView.h in Headers */ = {isa = PBXBuildFile; fileRef = 11606D912553DA3700069234 /* AKOTPView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11606DB12553DAD900069234 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11606DB02553DAD900069234 /* AppDelegate.swift */; };
+		11606DB32553DAD900069234 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11606DB22553DAD900069234 /* SceneDelegate.swift */; };
+		11606DB52553DAD900069234 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11606DB42553DAD900069234 /* ViewController.swift */; };
+		11606DB82553DAD900069234 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11606DB62553DAD900069234 /* Main.storyboard */; };
+		11606DBA2553DADC00069234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11606DB92553DADC00069234 /* Assets.xcassets */; };
+		11606DBD2553DADC00069234 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11606DBB2553DADC00069234 /* LaunchScreen.storyboard */; };
+		11606DC82553DADC00069234 /* AKOTPViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11606DC72553DADC00069234 /* AKOTPViewExampleTests.swift */; };
+		11606DD32553DADC00069234 /* AKOTPViewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11606DD22553DADC00069234 /* AKOTPViewExampleUITests.swift */; };
+		11606DE42553DE6100069234 /* AKOTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11606DE32553DE6100069234 /* AKOTPView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11606D992553DA3700069234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11606D852553DA3700069234 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11606D8D2553DA3700069234;
+			remoteInfo = AKOTPView;
+		};
+		11606DC42553DADC00069234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11606D852553DA3700069234 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11606DAD2553DAD900069234;
+			remoteInfo = AKOTPViewExample;
+		};
+		11606DCF2553DADC00069234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11606D852553DA3700069234 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11606DAD2553DAD900069234;
+			remoteInfo = AKOTPViewExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11606D8E2553DA3700069234 /* AKOTPView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AKOTPView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11606D912553DA3700069234 /* AKOTPView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKOTPView.h; sourceTree = "<group>"; };
+		11606D922553DA3700069234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11606D972553DA3700069234 /* AKOTPViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKOTPViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11606D9C2553DA3700069234 /* AKOTPViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKOTPViewTests.swift; sourceTree = "<group>"; };
+		11606D9E2553DA3700069234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11606DAE2553DAD900069234 /* AKOTPViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKOTPViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11606DB02553DAD900069234 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11606DB22553DAD900069234 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		11606DB42553DAD900069234 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11606DB72553DAD900069234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11606DB92553DADC00069234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11606DBC2553DADC00069234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11606DBE2553DADC00069234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11606DC32553DADC00069234 /* AKOTPViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKOTPViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11606DC72553DADC00069234 /* AKOTPViewExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKOTPViewExampleTests.swift; sourceTree = "<group>"; };
+		11606DC92553DADC00069234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11606DCE2553DADC00069234 /* AKOTPViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKOTPViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11606DD22553DADC00069234 /* AKOTPViewExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKOTPViewExampleUITests.swift; sourceTree = "<group>"; };
+		11606DD42553DADC00069234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11606DE32553DE6100069234 /* AKOTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKOTPView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11606D8B2553DA3700069234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11606D942553DA3700069234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11606D982553DA3700069234 /* AKOTPView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11606DAB2553DAD900069234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11606DC02553DADC00069234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11606DCB2553DADC00069234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11606D842553DA3700069234 = {
+			isa = PBXGroup;
+			children = (
+				11606D902553DA3700069234 /* AKOTPView */,
+				11606D9B2553DA3700069234 /* AKOTPViewTests */,
+				11606DAF2553DAD900069234 /* AKOTPViewExample */,
+				11606DC62553DADC00069234 /* AKOTPViewExampleTests */,
+				11606DD12553DADC00069234 /* AKOTPViewExampleUITests */,
+				11606D8F2553DA3700069234 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11606D8F2553DA3700069234 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11606D8E2553DA3700069234 /* AKOTPView.framework */,
+				11606D972553DA3700069234 /* AKOTPViewTests.xctest */,
+				11606DAE2553DAD900069234 /* AKOTPViewExample.app */,
+				11606DC32553DADC00069234 /* AKOTPViewExampleTests.xctest */,
+				11606DCE2553DADC00069234 /* AKOTPViewExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11606D902553DA3700069234 /* AKOTPView */ = {
+			isa = PBXGroup;
+			children = (
+				11606D912553DA3700069234 /* AKOTPView.h */,
+				11606DE32553DE6100069234 /* AKOTPView.swift */,
+				11606D922553DA3700069234 /* Info.plist */,
+			);
+			path = AKOTPView;
+			sourceTree = "<group>";
+		};
+		11606D9B2553DA3700069234 /* AKOTPViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				11606D9C2553DA3700069234 /* AKOTPViewTests.swift */,
+				11606D9E2553DA3700069234 /* Info.plist */,
+			);
+			path = AKOTPViewTests;
+			sourceTree = "<group>";
+		};
+		11606DAF2553DAD900069234 /* AKOTPViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				11606DB02553DAD900069234 /* AppDelegate.swift */,
+				11606DB22553DAD900069234 /* SceneDelegate.swift */,
+				11606DB42553DAD900069234 /* ViewController.swift */,
+				11606DB62553DAD900069234 /* Main.storyboard */,
+				11606DB92553DADC00069234 /* Assets.xcassets */,
+				11606DBB2553DADC00069234 /* LaunchScreen.storyboard */,
+				11606DBE2553DADC00069234 /* Info.plist */,
+			);
+			path = AKOTPViewExample;
+			sourceTree = "<group>";
+		};
+		11606DC62553DADC00069234 /* AKOTPViewExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				11606DC72553DADC00069234 /* AKOTPViewExampleTests.swift */,
+				11606DC92553DADC00069234 /* Info.plist */,
+			);
+			path = AKOTPViewExampleTests;
+			sourceTree = "<group>";
+		};
+		11606DD12553DADC00069234 /* AKOTPViewExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11606DD22553DADC00069234 /* AKOTPViewExampleUITests.swift */,
+				11606DD42553DADC00069234 /* Info.plist */,
+			);
+			path = AKOTPViewExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		11606D892553DA3700069234 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11606D9F2553DA3700069234 /* AKOTPView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		11606D8D2553DA3700069234 /* AKOTPView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11606DA22553DA3700069234 /* Build configuration list for PBXNativeTarget "AKOTPView" */;
+			buildPhases = (
+				11606D892553DA3700069234 /* Headers */,
+				11606D8A2553DA3700069234 /* Sources */,
+				11606D8B2553DA3700069234 /* Frameworks */,
+				11606D8C2553DA3700069234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKOTPView;
+			productName = AKOTPView;
+			productReference = 11606D8E2553DA3700069234 /* AKOTPView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		11606D962553DA3700069234 /* AKOTPViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11606DA52553DA3700069234 /* Build configuration list for PBXNativeTarget "AKOTPViewTests" */;
+			buildPhases = (
+				11606D932553DA3700069234 /* Sources */,
+				11606D942553DA3700069234 /* Frameworks */,
+				11606D952553DA3700069234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11606D9A2553DA3700069234 /* PBXTargetDependency */,
+			);
+			name = AKOTPViewTests;
+			productName = AKOTPViewTests;
+			productReference = 11606D972553DA3700069234 /* AKOTPViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11606DAD2553DAD900069234 /* AKOTPViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11606DD52553DADC00069234 /* Build configuration list for PBXNativeTarget "AKOTPViewExample" */;
+			buildPhases = (
+				11606DAA2553DAD900069234 /* Sources */,
+				11606DAB2553DAD900069234 /* Frameworks */,
+				11606DAC2553DAD900069234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKOTPViewExample;
+			productName = AKOTPViewExample;
+			productReference = 11606DAE2553DAD900069234 /* AKOTPViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11606DC22553DADC00069234 /* AKOTPViewExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11606DD82553DADC00069234 /* Build configuration list for PBXNativeTarget "AKOTPViewExampleTests" */;
+			buildPhases = (
+				11606DBF2553DADC00069234 /* Sources */,
+				11606DC02553DADC00069234 /* Frameworks */,
+				11606DC12553DADC00069234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11606DC52553DADC00069234 /* PBXTargetDependency */,
+			);
+			name = AKOTPViewExampleTests;
+			productName = AKOTPViewExampleTests;
+			productReference = 11606DC32553DADC00069234 /* AKOTPViewExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11606DCD2553DADC00069234 /* AKOTPViewExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11606DDB2553DADC00069234 /* Build configuration list for PBXNativeTarget "AKOTPViewExampleUITests" */;
+			buildPhases = (
+				11606DCA2553DADC00069234 /* Sources */,
+				11606DCB2553DADC00069234 /* Frameworks */,
+				11606DCC2553DADC00069234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11606DD02553DADC00069234 /* PBXTargetDependency */,
+			);
+			name = AKOTPViewExampleUITests;
+			productName = AKOTPViewExampleUITests;
+			productReference = 11606DCE2553DADC00069234 /* AKOTPViewExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11606D852553DA3700069234 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					11606D8D2553DA3700069234 = {
+						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
+					};
+					11606D962553DA3700069234 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					11606DAD2553DAD900069234 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					11606DC22553DADC00069234 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 11606DAD2553DAD900069234;
+					};
+					11606DCD2553DADC00069234 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 11606DAD2553DAD900069234;
+					};
+				};
+			};
+			buildConfigurationList = 11606D882553DA3700069234 /* Build configuration list for PBXProject "AKOTPView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11606D842553DA3700069234;
+			productRefGroup = 11606D8F2553DA3700069234 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11606D8D2553DA3700069234 /* AKOTPView */,
+				11606D962553DA3700069234 /* AKOTPViewTests */,
+				11606DAD2553DAD900069234 /* AKOTPViewExample */,
+				11606DC22553DADC00069234 /* AKOTPViewExampleTests */,
+				11606DCD2553DADC00069234 /* AKOTPViewExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11606D8C2553DA3700069234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11606D952553DA3700069234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11606DAC2553DAD900069234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11606DBD2553DADC00069234 /* LaunchScreen.storyboard in Resources */,
+				11606DBA2553DADC00069234 /* Assets.xcassets in Resources */,
+				11606DB82553DAD900069234 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11606DC12553DADC00069234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11606DCC2553DADC00069234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11606D8A2553DA3700069234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11606DE42553DE6100069234 /* AKOTPView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11606D932553DA3700069234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11606D9D2553DA3700069234 /* AKOTPViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11606DAA2553DAD900069234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11606DB52553DAD900069234 /* ViewController.swift in Sources */,
+				11606DB12553DAD900069234 /* AppDelegate.swift in Sources */,
+				11606DB32553DAD900069234 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11606DBF2553DADC00069234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11606DC82553DADC00069234 /* AKOTPViewExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11606DCA2553DADC00069234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11606DD32553DADC00069234 /* AKOTPViewExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11606D9A2553DA3700069234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11606D8D2553DA3700069234 /* AKOTPView */;
+			targetProxy = 11606D992553DA3700069234 /* PBXContainerItemProxy */;
+		};
+		11606DC52553DADC00069234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11606DAD2553DAD900069234 /* AKOTPViewExample */;
+			targetProxy = 11606DC42553DADC00069234 /* PBXContainerItemProxy */;
+		};
+		11606DD02553DADC00069234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11606DAD2553DAD900069234 /* AKOTPViewExample */;
+			targetProxy = 11606DCF2553DADC00069234 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11606DB62553DAD900069234 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11606DB72553DAD900069234 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11606DBB2553DADC00069234 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11606DBC2553DADC00069234 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11606DA02553DA3700069234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		11606DA12553DA3700069234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		11606DA32553DA3700069234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C6J7HDQ674;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AKOTPView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ahmedkhalil.AKOTPView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11606DA42553DA3700069234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C6J7HDQ674;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AKOTPView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ahmedkhalil.AKOTPView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11606DA62553DA3700069234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6J7HDQ674;
+				INFOPLIST_FILE = AKOTPViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ahmedkhalil.AKOTPViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11606DA72553DA3700069234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6J7HDQ674;
+				INFOPLIST_FILE = AKOTPViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ahmedkhalil.AKOTPViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11606DD62553DADC00069234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6J7HDQ674;
+				INFOPLIST_FILE = AKOTPViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ahmedkhalil.AKOTPViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11606DD72553DADC00069234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6J7HDQ674;
+				INFOPLIST_FILE = AKOTPViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ahmedkhalil.AKOTPViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11606DD92553DADC00069234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6J7HDQ674;
+				INFOPLIST_FILE = AKOTPViewExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ahmedkhalil.AKOTPViewExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AKOTPViewExample.app/AKOTPViewExample";
+			};
+			name = Debug;
+		};
+		11606DDA2553DADC00069234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6J7HDQ674;
+				INFOPLIST_FILE = AKOTPViewExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ahmedkhalil.AKOTPViewExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AKOTPViewExample.app/AKOTPViewExample";
+			};
+			name = Release;
+		};
+		11606DDC2553DADC00069234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6J7HDQ674;
+				INFOPLIST_FILE = AKOTPViewExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ahmedkhalil.AKOTPViewExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AKOTPViewExample;
+			};
+			name = Debug;
+		};
+		11606DDD2553DADC00069234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6J7HDQ674;
+				INFOPLIST_FILE = AKOTPViewExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ahmedkhalil.AKOTPViewExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AKOTPViewExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11606D882553DA3700069234 /* Build configuration list for PBXProject "AKOTPView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11606DA02553DA3700069234 /* Debug */,
+				11606DA12553DA3700069234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11606DA22553DA3700069234 /* Build configuration list for PBXNativeTarget "AKOTPView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11606DA32553DA3700069234 /* Debug */,
+				11606DA42553DA3700069234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11606DA52553DA3700069234 /* Build configuration list for PBXNativeTarget "AKOTPViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11606DA62553DA3700069234 /* Debug */,
+				11606DA72553DA3700069234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11606DD52553DADC00069234 /* Build configuration list for PBXNativeTarget "AKOTPViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11606DD62553DADC00069234 /* Debug */,
+				11606DD72553DADC00069234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11606DD82553DADC00069234 /* Build configuration list for PBXNativeTarget "AKOTPViewExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11606DD92553DADC00069234 /* Debug */,
+				11606DDA2553DADC00069234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11606DDB2553DADC00069234 /* Build configuration list for PBXNativeTarget "AKOTPViewExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11606DDC2553DADC00069234 /* Debug */,
+				11606DDD2553DADC00069234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11606D852553DA3700069234 /* Project object */;
+}
