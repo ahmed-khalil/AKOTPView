@@ -8,10 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var akotpView: AKOTPView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.addSubview(AKOTPView())
+        
+        akotpView.fieldsCount = 6
+        akotpView.otpInputType = .numeric
+        akotpView.fieldBorderColor = .lightGray
+        akotpView.filledBackgroundColor = .lightGray
+        akotpView.shouldShowCursor = false
+        akotpView.initializeUI()
     }
 }
 

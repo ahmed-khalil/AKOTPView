@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1112CD55255401B20047BFE8 /* AKOTPView_Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1112CD54255401B20047BFE8 /* AKOTPView_Demo.swift */; };
+		1112CD5C25540BF00047BFE8 /* AKOTPTextField_Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1112CD5B25540BF00047BFE8 /* AKOTPTextField_Demo.swift */; };
+		1112CD63255415940047BFE8 /* AKOTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1112CD62255415940047BFE8 /* AKOTPTextField.swift */; };
 		11606D982553DA3700069234 /* AKOTPView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11606D8E2553DA3700069234 /* AKOTPView.framework */; };
 		11606D9D2553DA3700069234 /* AKOTPViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11606D9C2553DA3700069234 /* AKOTPViewTests.swift */; };
 		11606D9F2553DA3700069234 /* AKOTPView.h in Headers */ = {isa = PBXBuildFile; fileRef = 11606D912553DA3700069234 /* AKOTPView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,6 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1112CD54255401B20047BFE8 /* AKOTPView_Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKOTPView_Demo.swift; sourceTree = "<group>"; };
+		1112CD5B25540BF00047BFE8 /* AKOTPTextField_Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKOTPTextField_Demo.swift; sourceTree = "<group>"; };
+		1112CD62255415940047BFE8 /* AKOTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKOTPTextField.swift; sourceTree = "<group>"; };
 		11606D8E2553DA3700069234 /* AKOTPView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AKOTPView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11606D912553DA3700069234 /* AKOTPView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKOTPView.h; sourceTree = "<group>"; };
 		11606D922553DA3700069234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -138,6 +144,7 @@
 			children = (
 				11606D912553DA3700069234 /* AKOTPView.h */,
 				11606DE32553DE6100069234 /* AKOTPView.swift */,
+				1112CD62255415940047BFE8 /* AKOTPTextField.swift */,
 				11606D922553DA3700069234 /* Info.plist */,
 			);
 			path = AKOTPView;
@@ -158,6 +165,8 @@
 				11606DB02553DAD900069234 /* AppDelegate.swift */,
 				11606DB22553DAD900069234 /* SceneDelegate.swift */,
 				11606DB42553DAD900069234 /* ViewController.swift */,
+				1112CD54255401B20047BFE8 /* AKOTPView_Demo.swift */,
+				1112CD5B25540BF00047BFE8 /* AKOTPTextField_Demo.swift */,
 				11606DB62553DAD900069234 /* Main.storyboard */,
 				11606DB92553DADC00069234 /* Assets.xcassets */,
 				11606DBB2553DADC00069234 /* LaunchScreen.storyboard */,
@@ -385,6 +394,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11606DE42553DE6100069234 /* AKOTPView.swift in Sources */,
+				1112CD63255415940047BFE8 /* AKOTPTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,7 +411,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				11606DB52553DAD900069234 /* ViewController.swift in Sources */,
+				1112CD55255401B20047BFE8 /* AKOTPView_Demo.swift in Sources */,
 				11606DB12553DAD900069234 /* AppDelegate.swift in Sources */,
+				1112CD5C25540BF00047BFE8 /* AKOTPTextField_Demo.swift in Sources */,
 				11606DB32553DAD900069234 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

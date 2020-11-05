@@ -26,6 +26,8 @@ class AKOTPView: UIView {
     public var filledBackgroundColor: UIColor = UIColor.clear
     public var fieldBorderColor: UIColor = UIColor.gray
     public var fieldCornerRadius: CGFloat = 5
+    public var shouldShowCursor: Bool = true
+    public var cursorColor: UIColor = UIColor.blue
     
     private var otpTextFields: [UITextField] = []
     
@@ -56,6 +58,13 @@ class AKOTPView: UIView {
         otpTextField.frame = getFieldFrame(index: index)
         otpTextField.delegate = self
         otpTextField.tag = index
+        
+        if shouldShowCursor {
+            otpTextField.tintColor = cursorColor
+        }
+        else {
+            otpTextField.tintColor = UIColor.clear
+        }
         
         // Set input type for OTP fields
         switch otpInputType {
